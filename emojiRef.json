@@ -1,0 +1,112 @@
+[
+    {
+        "dec": "8512",
+        "hex": "600",
+        "key": ["smile"]
+    },
+    {
+        "dec": "8513",
+        "hex": "601",
+        "key": ["grin"]
+    },
+    {
+        "dec": "8514",
+        "hex": "602",
+        "key": ["laugh"]
+    },
+    {
+        "dec": "8515",
+        "hex": "603",
+        "key": ["joy"]
+    },
+    {
+        "dec": "8516",
+        "hex": "604",
+        "key": ["proud"]
+    },
+    {
+        "dec": "8517",
+        "hex": "605",
+        "key": ["awkward", "sweat"]
+    },
+    {
+        "dec": "8518",
+        "hex": "606",
+        "key": ["laugh", "laughing"]
+    },
+    {
+        "dec": "8519",
+        "hex": "607",
+        "key": ["angel", "halo"]
+    },
+    {
+        "dec": "8520",
+        "hex": "608",
+        "key": ["devil", "horns"]
+    },
+    {
+        "dec": "8521",
+        "hex": "609",
+        "key": ["wink"]
+    },
+    {
+        "dec": "8522",
+        "hex": "60A",
+        "key": ["blush", "smile"]
+    },
+    {
+        "dec": "8523",
+        "hex": "60B",
+        "key": ["yum", "tongue"]
+    },
+    {
+        "dec": "8524",
+        "hex": "60C",
+        "key": ["satisfied"]
+    },
+    {
+        "dec": "8525",
+        "hex": "60D",
+        "key": ["love", "heart", "<3"]
+    },
+    {
+        "dec": "8526",
+        "hex": "60E",
+        "key": ["glasses", "sunglasses"]
+    },
+    {
+        "dec": "8527",
+        "hex": "60F",
+        "key": ["smirk"]
+    },
+    {
+        "dec": "8528",
+        "hex": "610",
+        "key": ["neutral face", "expressionless", "unamused"]
+    },
+    {
+        "dec": "8529",
+        "hex": "611",
+        "key": ["unimpressed", "expressionless"]
+    },
+    {
+        "dec": "8530",
+        "hex": "612",
+        "key": ["unimpressed", "unamused"]
+    },
+    {
+        "dec": "8531",
+        "hex": "613",
+        "key": ["sweat", "sad", "disappointed"]
+    },
+    {
+        "dec": "8532",
+        "hex": "614",
+        "key": ["sorry", "upset"]
+    },
+    {
+        "dec": "8533",
+        "hex": "615",
+        "key": ["sorry", "upset"]
+    }
+]

@@ -1,0 +1,46 @@
+@import '~antd/dist/antd.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #121212;
+    overflow: hidden;
+    min-height: 100vh;
+    color: white;
+    box-sizing: border-box;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: rgba(202, 204, 206, 0.04);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #474c50;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #575e63;
+  }
+  Image {
+    user-select: none;
+  }
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
