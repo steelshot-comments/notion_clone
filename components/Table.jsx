@@ -40,8 +40,12 @@ function Table() {
     setCells(cells.map((row) => [...row, { id: uuid(), content: "" }]));
   }
 
+  function addRc(){
+    setCells(cells.map((row) => [...row, { id: uuid(), content: "" }]), cells[0].map((cell) => ({ id: uuid(), content: "" })));
+  }
+
   return (
-    <div className="relative">
+    <div className="relative mb-5">
       <table className="relative">
         <tbody>
           {cells.map((cell, i) => (
@@ -125,7 +129,9 @@ function Table() {
       {MouseDown ? (
         <div
           className="absolute grid place-items-center bg-[#373737] opacity-100 transition-all duration-300 ease-linear w-4 h-4 -right-5 -bottom-5 rounded-full cursor-se-resize select-none"
-          // onClick={addBoth}
+          onClick={addRc}
+          onMouseDown={(e) => MouseDown(true)}
+          onMouseUp={(e) => setMouseDown(false)}
         >
           <svg
             viewBox="0 0 16 16"
@@ -137,7 +143,9 @@ function Table() {
       ) : (
         <div
           className="absolute grid place-items-center bg-[#373737] opacity-0 transition-all duration-300 ease-linear w-4 h-4 -right-5 -bottom-5 rounded-full cursor-se-resize hover:opacity-100 select-none"
-          // onClick={addBoth}
+          onClick={addRc}
+          onMouseDown={(e) => MouseDown(true)}
+          onMouseUp={(e) => setMouseDown(false)}
         >
           <svg
             viewBox="0 0 16 16"

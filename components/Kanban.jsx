@@ -20,7 +20,7 @@ function Kanban() {
   }
 
   return (
-    <div className="  w-[100vw] -translate-x-1/2 p-3 flex overflow-x-scroll h-auto gap-3 text-black">
+    <div className="w-full p-3 flex overflow-x-scroll h-auto gap-3 text-black">
       {columns.map(column => (
         <KanbanColumn key={column.id} id={column.id} title={column.title} />
       ))}

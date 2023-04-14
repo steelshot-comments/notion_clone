@@ -13,7 +13,7 @@ function Page({children}) {
   }
   return (
     <div
-      className="flex flex-col pt-[5px] pb-[30vh] px-[409px]"
+      className="flex flex-col pt-[5px] pb-[30vh]"
       onSelect={getSelectionRange}
     >
       {children}

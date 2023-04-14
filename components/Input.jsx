@@ -5,7 +5,7 @@ function Input() {
   return (
     <input
       type={"text"}
-      className="flex-1 w-full max-w-[240px] min-w-[140px] bg-transparent break-words whitespace-nowrap px-[9px] py-2 outline-none"
+      className="flex-1 w-full min-w-[140px] bg-transparent break-words whitespace-nowrap px-[9px] outline-none"
       value={value}
       onChange={(e) => setValue(e.target.value)}
     />
